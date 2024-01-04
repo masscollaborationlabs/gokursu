@@ -5,6 +5,7 @@ import "fmt"
 func Demo3() {
 	number_in_my_mind := 80
 	guess_number := 0
+	guess_count := 0
 	/**
 	  	Autohor of this code : hwpplayer1(Mert Gör)
 
@@ -53,7 +54,7 @@ func Demo3() {
 	/**
 	fmt.Println("Guess a number: ")
 	fmt.Scanln(&guess_number)
-	fmt.Println(guess_number)	
+	fmt.Println(guess_number)
 
 	if guess_number < number_in_my_mind {
 		fmt.Println("enter a bigger number")
@@ -69,23 +70,51 @@ func Demo3() {
 		fmt.Println("bravo you entered the correct number!")
 	}
 	**/
+	/**
+		for guess_number != number_in_my_mind {
+			if guess_number < number_in_my_mind {
+				fmt.Println("enter a bigger number")
+				fmt.Scanln(&guess_number)
+			}
+
+			if guess_number > number_in_my_mind {
+				fmt.Println("enter a lower number")
+				fmt.Scanln(&guess_number)
+			}
+		}
+		// if guess_number == number_in_my_mind {
+			// fmt.Println("bravo you entered the correct number!")
+		// }
+
+		fmt.Println("bravo! you guessed the right number!")
+	**/
+
+	fmt.Println("Guess a number: ")
+	fmt.Scanln(&guess_number)
+	guess_count = guess_count + 1
 
 	for guess_number != number_in_my_mind {
 		if guess_number < number_in_my_mind {
 			fmt.Println("enter a bigger number")
 			fmt.Scanln(&guess_number)
+			guess_count = guess_count + 1
 		}
 
 		if guess_number > number_in_my_mind {
 			fmt.Println("enter a lower number")
 			fmt.Scanln(&guess_number)
+			guess_count = guess_count + 1
 		}
 	}
-	// if guess_number == number_in_my_mind {
-		// fmt.Println("bravo you entered the correct number!")
-	// }
+	guess_state := ""
 
-	fmt.Println("bravo! you guessed the right number!")
+	if guess_count > 0 && guess_count <= 3 {
+		guess_state = "Super"
+	}else if guess_count <= 6 {
+		guess_state = "Nice"
+	} else {
+		guess_state = "Not bad!"
+	}
+
+	fmt.Printf("bravo! you guessed the right number! %v guess count : %v\n", guess_count, guess_state)
 }
-
-
