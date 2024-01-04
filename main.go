@@ -11,5 +11,5 @@ func main() {
 	variables.Demo1()
 	fmt.Print()
 	conditionals.Demo3()
-	loops.Demo3()
+	loops.Demo4()
 }
