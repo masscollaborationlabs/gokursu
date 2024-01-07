@@ -5,6 +5,7 @@ import (
 	"golesson/conditionals"
 	"golesson/loops"
 	"golesson/variables"
+	"golesson/arrays"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	fmt.Print()
 	conditionals.Demo3()
 	loops.Demo5()
+	arrays.Demo1()
 }
