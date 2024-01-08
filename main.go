@@ -13,5 +13,5 @@ func main() {
 	fmt.Print()
 	conditionals.Demo3()
 	loops.Demo5()
-	arrays.Demo2()
+	arrays.Demo3()
 }
