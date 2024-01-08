@@ -1,0 +1,14 @@
+package arrays
+
+import "fmt"
+
+func Demo2()  {
+	var cities [5]string
+	cities[0] = "Ankara"
+	cities[1] = "İstanbul"
+	cities[2] = "İzmir"
+	cities[3] = "Adana"
+	cities[4] = "Diyarbakır"
+
+	fmt.Println(cities)
+}
