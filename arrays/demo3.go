@@ -14,6 +14,6 @@ func Demo3()  {
 		if numbers[i] > max_number {
 			max_number = numbers[i]
 		}
-		fmt.Println("max number : ", max_number)
 	}
+	fmt.Println("max number : ", max_number)
 }
