@@ -11,4 +11,8 @@ func Demo2()  {
 	cities[4] = "Diyarbakır"
 
 	fmt.Println(cities)
+
+	for i := 0; i < 5; i++ {
+		fmt.Println(cities[i])
+	}
 }
