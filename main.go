@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"golesson/arrays"
 	"golesson/conditionals"
 	"golesson/loops"
+	"golesson/slices"
 	"golesson/variables"
-	"golesson/arrays"
 )
 
 func main() {
@@ -14,4 +15,5 @@ func main() {
 	conditionals.Demo3()
 	loops.Demo5()
 	arrays.Demo4()
+	slices.Demo1()
 }
