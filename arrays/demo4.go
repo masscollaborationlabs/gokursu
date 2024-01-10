@@ -12,5 +12,16 @@ func Demo4()  {
 	numbers[1][1] = 4
 	numbers[1][2] = 6
 
-	fmt.Println(numbers[1][1])
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 3; j++ {
+			fmt.Print(numbers[i][j])
+			fmt.Print(" ")
+		}
+
+		fmt.Println()
+		
+	}
+
+	// fmt.Println(numbers[1][1])
+	
 }
