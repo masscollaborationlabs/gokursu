@@ -16,4 +16,6 @@ func Demo2()  {
 	fmt.Println(cities_copy)
 
 	fmt.Println(cities[1:4])
+	fmt.Println(cities[1:])
+	fmt.Println(cities[:2])
 }
