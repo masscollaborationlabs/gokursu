@@ -14,4 +14,6 @@ func Demo2()  {
 	cities = append(cities, "Adana")
 	fmt.Println(cities)
 	fmt.Println(cities_copy)
+
+	fmt.Println(cities[1:4])
 }
