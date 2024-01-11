@@ -11,4 +11,7 @@ func Demo2()  {
 	fmt.Println(cities_copy)
 	copy(cities_copy, cities)
 	fmt.Println(cities_copy)
+	cities = append(cities, "Adana")
+	fmt.Println(cities)
+	fmt.Println(cities_copy)
 }
