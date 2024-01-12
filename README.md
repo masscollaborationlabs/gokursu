@@ -2,6 +2,15 @@
 
 Go Programlama dili kursu. [BTK AKADEMİ](https://www.btkakademi.gov.tr/portal/course/go-ile-programlamaya-giris-12760) notlarından yararlanılmıştır. [Go](https://en.wikipedia.org/wiki/Go_(programming_language)) dili BSD 3 Clause lisanslı olduğundan otomatik olarak bu lisans atanmıştır.
 
+Forge ortamları:
+
+* https://github.com/masscollaborationlabs/gokursu
+* https://gitlab.com/masscollabs/masscollaborationlabs/gokursu
+* https://git.vern.cc/masscollaborationlabs/gokursu
+* https://git.disroot.org/hwpplayer1/gokursu
+* https://codeberg.org/masscollaborationlabs/gokursu
+* Sourcehut link will be added
+
 # License
 
 BSD 3-Clause License
