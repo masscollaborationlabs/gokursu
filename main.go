@@ -18,4 +18,5 @@ func main() {
 	arrays.Demo4()
 	slices.Demo2()
 	functions.SayHello()
+	functions.Addition(2,6)
 }
