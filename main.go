@@ -17,7 +17,7 @@ func main() {
 	loops.Demo5()
 	arrays.Demo4()
 	slices.Demo2()
-	functions.SayHello()
+	functions.SayHello("Mert Gör")
 	// functions.Addition(2,6)
 	var total = functions.Addition(3,8)
 	fmt.Println(total)

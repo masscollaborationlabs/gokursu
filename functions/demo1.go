@@ -7,6 +7,6 @@ func Addition(number1 int, number2 int) int{
 	return total
 }
 
-func SayHello() {
-	fmt.Println("Hello There !")
+func SayHello(userName string) {
+	fmt.Println("Hello There !", userName)
 }
