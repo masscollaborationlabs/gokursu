@@ -19,4 +19,6 @@ func main() {
 	slices.Demo2()
 	functions.SayHello()
 	functions.Addition(2,6)
+	var total = functions.Addition(3,8)
+	fmt.Println(total)
 }
