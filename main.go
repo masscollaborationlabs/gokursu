@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"golesson/arrays"
 	"golesson/conditionals"
+	"golesson/functions"
 	"golesson/loops"
 	"golesson/slices"
 	"golesson/variables"
@@ -16,4 +17,5 @@ func main() {
 	loops.Demo5()
 	arrays.Demo4()
 	slices.Demo2()
+	functions.SayHello()
 }
