@@ -31,4 +31,6 @@ func main() {
 	
 	var result = functions.AddVariadic(1,3,4,5,3)
 	fmt.Println(result)
+
+	fmt.Println(functions.AddVariadic(1,3,4))
 }
