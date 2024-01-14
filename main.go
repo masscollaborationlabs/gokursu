@@ -33,4 +33,7 @@ func main() {
 	fmt.Println(result)
 
 	fmt.Println(functions.AddVariadic(1,3,4))
+
+	numbers_main := []int{1,2,3,4}
+	fmt.Println(functions.AddVariadic(numbers_main...))
 }
