@@ -18,8 +18,14 @@ func main() {
 	arrays.Demo4()
 	slices.Demo2()
 	functions.SayHello("Mert Gör")
-	// functions.Addition(2,6)
+	functions.Addition(2,6)
 	var total = functions.Addition(3,8)
 	fmt.Println(total)
 	fmt.Println(total * 10)
+	
+	result1, result2, result3, result4 := functions.MathOps(10,2)
+	fmt.Println("Add :", result1)
+	fmt.Println("Subtract :", result2)
+	fmt.Println("Multiply : ", result3)
+	fmt.Println("Divide : ", result4)
 }
