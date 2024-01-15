@@ -10,4 +10,5 @@ func Demo1()  {
 	my_dictionary["pencil"]="Kalem"
 	
 	fmt.Println(my_dictionary["book"])
+	fmt.Println("String number : ", len(my_dictionary))
 }
