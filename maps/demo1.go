@@ -15,4 +15,7 @@ func Demo1()  {
 	delete(my_dictionary, "book")
 	fmt.Println("String number : ", len(my_dictionary))
 	fmt.Println("Dictionary", my_dictionary)
+
+	value := my_dictionary["table"]
+	fmt.Println(value)
 }
