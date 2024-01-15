@@ -16,6 +16,7 @@ func Demo1()  {
 	fmt.Println("String number : ", len(my_dictionary))
 	fmt.Println("Dictionary", my_dictionary)
 
-	value := my_dictionary["table"]
+	value, is_value_there := my_dictionary["table"]
 	fmt.Println(value)
+	fmt.Println("Listede olma durumu", is_value_there)
 }
