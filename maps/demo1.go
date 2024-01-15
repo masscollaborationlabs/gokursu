@@ -19,4 +19,7 @@ func Demo1()  {
 	value, is_value_there := my_dictionary["table"]
 	fmt.Println(value)
 	fmt.Println("Listede olma durumu", is_value_there)
+
+	my_dictionary2 := map[string]string{"glass":"bardak","microphone":"mikrofon"}
+	fmt.Println(my_dictionary2)	
 }
