@@ -41,5 +41,5 @@ func main() {
 
 	maps.Demo1()
 	examplerange.Demo1()
-	// examplerange.Demo2()
+	examplerange.Demo2()
 }
