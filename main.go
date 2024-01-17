@@ -7,6 +7,7 @@ import (
 	"golesson/functions"
 	"golesson/loops"
 	"golesson/maps"
+	for_range "golesson/range"
 	"golesson/slices"
 	"golesson/variables"
 )
@@ -39,4 +40,5 @@ func main() {
 	fmt.Println(functions.AddVariadic(numbers_main...))
 
 	maps.Demo1()
+	for_range.Demo1()
 }
