@@ -3,7 +3,7 @@ package structs
 import "fmt"
 
 func Demo1()  {
-	fmt.Println(product{"Computer", 5000, "XYZ", 20})
+	fmt.Println(product{name:"Computer", unitPrice: 5000, brand: "XYZ", discountRate: 20})
 }
 
 type product struct {
