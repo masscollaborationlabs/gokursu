@@ -9,7 +9,8 @@ Forge ortamları:
 * https://git.vern.cc/masscollaborationlabs/gokursu
 * https://git.disroot.org/hwpplayer1/gokursu
 * https://codeberg.org/masscollaborationlabs/gokursu
-* Sourcehut link will be added
+* https://git.sr.ht/~mertgor/gokursu
+* ve yereldeki kodunuz
 
 # License
 
