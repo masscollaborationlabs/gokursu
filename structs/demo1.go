@@ -12,3 +12,4 @@ type product struct {
 	brand string
 	discountRate int
 }
+
