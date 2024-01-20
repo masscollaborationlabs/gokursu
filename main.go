@@ -8,6 +8,7 @@ import (
 	"golesson/functions"
 	"golesson/loops"
 	"golesson/maps"
+	"golesson/pointers"
 	"golesson/slices"
 	"golesson/variables"
 )
@@ -43,4 +44,9 @@ func main() {
 	examplerange.Demo1()
 	examplerange.Demo2()
 	examplerange.Demo3()
+
+	number := 20
+	pointers.Demo1(number)
+	fmt.Println("Number in Main go file", number)
+	
 }
