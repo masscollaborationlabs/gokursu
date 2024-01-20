@@ -46,7 +46,7 @@ func main() {
 	examplerange.Demo3()
 
 	number := 20
-	pointers.Demo1(number)
+	pointers.Demo1(&number)
 	fmt.Println("Number in Main go file", number)
-	
+
 }
