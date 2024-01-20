@@ -12,7 +12,12 @@ func (c customer) save()  {
 	fmt.Println("Has been added : ", c.firstName, c.lastName,c.age)
 }
 
+func (c customer) update() {
+	fmt.Println("Updated : ", c.firstName, c.lastName, c.age)
+}
+
 func Demo2()  {
 	c:= customer{firstName: "Engin", lastName: "Demiroğ", age: 35}
 	c.save()
+	c.update()
 }
