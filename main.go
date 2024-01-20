@@ -10,6 +10,7 @@ import (
 	"golesson/maps"
 	"golesson/pointers"
 	"golesson/slices"
+	"golesson/structs"
 	"golesson/variables"
 )
 
@@ -52,4 +53,5 @@ func main() {
 	numbers:=[]int{1,2,3}
 	pointers.Demo2(numbers)
 	fmt.Println("Numbers in Main", numbers[0])
+	structs.Demo1()
 }
