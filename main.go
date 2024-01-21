@@ -6,6 +6,7 @@ import (
 	"golesson/conditionals"
 	"golesson/examplerange"
 	"golesson/functions"
+	"golesson/goroutines"
 	"golesson/loops"
 	"golesson/maps"
 	"golesson/pointers"
@@ -55,4 +56,7 @@ func main() {
 	fmt.Println("Numbers in Main", numbers[0])
 	structs.Demo1()
 	structs.Demo2()
+
+	goroutines.EvenNumber()
+	goroutines.OddNumber()
 }
