@@ -13,6 +13,7 @@ import (
 	"golesson/slices"
 	"golesson/structs"
 	"golesson/variables"
+	"time"
 )
 
 func main() {
@@ -57,6 +58,8 @@ func main() {
 	structs.Demo1()
 	structs.Demo2()
 
-	goroutines.EvenNumber()
-	goroutines.OddNumber()
+	go goroutines.EvenNumber()
+	go goroutines.OddNumber()
+	time.Sleep(5 * time.Second)
+	fmt.Println("Main ended")
 }
