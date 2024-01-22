@@ -35,4 +35,8 @@ func Demo1()  {
 	}
 
 	school(r)
+
+	c:= circle{radius: 10}
+
+	school(c)
 }
