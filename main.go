@@ -8,6 +8,7 @@ import (
 	"golesson/examplerange"
 	"golesson/functions"
 	"golesson/goroutines"
+	"golesson/interfaces"
 	"golesson/loops"
 	"golesson/maps"
 	"golesson/pointers"
@@ -75,4 +76,6 @@ func main() {
 	multiply := EvenNumberTotal * OddNumberTotal
 
 	fmt.Println("Multiply Result : ", multiply)
+
+	interfaces.Demo1()
 }
