@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"golesson/arrays"
+	"golesson/channels"
 	"golesson/conditionals"
 	"golesson/examplerange"
 	"golesson/functions"
@@ -62,4 +63,16 @@ func main() {
 	go goroutines.OddNumber()
 	time.Sleep(5 * time.Second)
 	fmt.Println("Main ended")
+
+	EvenNumberCn := make(chan int)
+	OddNumberCn := make(chan int)
+
+	go channels.EvenNumber(EvenNumberCn)
+	go channels.OddNumber(OddNumberCn)
+
+	EvenNumberTotal, OddNumberTotal := <- EvenNumberCn, <- OddNumberCn
+
+	multiply := EvenNumberTotal * OddNumberTotal
+
+	fmt.Println("Multiply Result : ", multiply)
 }
