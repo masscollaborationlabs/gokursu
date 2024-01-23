@@ -78,4 +78,5 @@ func main() {
 	fmt.Println("Multiply Result : ", multiply)
 
 	interfaces.Demo1()
+	interfaces.Demo2()
 }
