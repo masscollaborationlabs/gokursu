@@ -7,7 +7,7 @@ func A()  {
 }
 
 func B()  {
+	defer A()
 	fmt.Println("B function worked")
-	A()
 }
 
