@@ -7,6 +7,7 @@ func Demo2(number int)  string{
 	defer DeferFunc()
 
 	if number % 2 == 0{
+		fmt.Println("Even number worked")
 		return "Even number"
 	}
 
