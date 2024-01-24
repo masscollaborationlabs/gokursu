@@ -3,6 +3,9 @@ package defer_statement
 import "fmt"
 
 func Demo2(number int)  string{
+
+	defer DeferFunc()
+
 	if number % 2 == 0{
 		return "Even number"
 	}
@@ -15,7 +18,10 @@ func Demo2(number int)  string{
 }
 
 func Test()  {
-	result := Demo2(9)
+	result := Demo2(10)
 	fmt.Println("Result", result)
 }
 
+func DeferFunc()  {
+	fmt.Println("End !")
+}
