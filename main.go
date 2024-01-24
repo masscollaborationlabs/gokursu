@@ -5,6 +5,7 @@ import (
 	"golesson/arrays"
 	"golesson/channels"
 	"golesson/conditionals"
+	"golesson/defer_statement"
 	"golesson/examplerange"
 	"golesson/functions"
 	"golesson/goroutines"
@@ -79,4 +80,7 @@ func main() {
 
 	interfaces.Demo1()
 	interfaces.Demo2()
+
+	defer_statement.B()
+	
 }
