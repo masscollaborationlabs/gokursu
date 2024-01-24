@@ -1,3 +1,4 @@
+
 package defer_statement
 
 import "fmt"
