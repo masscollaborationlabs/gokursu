@@ -17,6 +17,7 @@ import (
 	"golesson/structs"
 	"golesson/variables"
 	"time"
+	"golesson/error_handling"
 )
 
 func main() {
@@ -84,4 +85,6 @@ func main() {
 	defer_statement.B()
 	defer_statement.Test()
 	defer_statement.Demo3()
+
+	error_handling.Demo1()
 }
