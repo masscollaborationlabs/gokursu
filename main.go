@@ -1,7 +1,7 @@
 /**
 
 main.go
-  
+
 BSD 3-Clause License
 
 Copyright (c) 2024 Mass Collaboration Labs and contributors
@@ -30,7 +30,7 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-  
+
  **/
 
 package main
@@ -41,6 +41,7 @@ import (
 	"golesson/channels"
 	"golesson/conditionals"
 	"golesson/defer_statement"
+	"golesson/error_handling"
 	"golesson/examplerange"
 	"golesson/functions"
 	"golesson/goroutines"
@@ -52,7 +53,6 @@ import (
 	"golesson/structs"
 	"golesson/variables"
 	"time"
-	"golesson/error_handling"
 )
 
 func main() {
@@ -91,7 +91,7 @@ func main() {
 	pointers.Demo1(&number)
 	fmt.Println("Number in Main go file", number)
 
-	numbers:=[]int{1,2,3}
+	numbers := []int{1, 2, 3}
 	pointers.Demo2(numbers)
 	fmt.Println("Numbers in Main", numbers[0])
 	structs.Demo1()
@@ -108,7 +108,7 @@ func main() {
 	go channels.EvenNumber(EvenNumberCn)
 	go channels.OddNumber(OddNumberCn)
 
-	EvenNumberTotal, OddNumberTotal := <- EvenNumberCn, <- OddNumberCn
+	EvenNumberTotal, OddNumberTotal := <-EvenNumberCn, <-OddNumberCn
 
 	multiply := EvenNumberTotal * OddNumberTotal
 
