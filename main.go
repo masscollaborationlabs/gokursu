@@ -123,4 +123,5 @@ func main() {
 
 	error_handling.Demo1()
 	interfaces.Demo3()
+	error_handling.Demo2()
 }
