@@ -50,6 +50,7 @@ import (
 	"golesson/maps"
 	"golesson/pointers"
 	"golesson/slices"
+	"golesson/string_functions"
 	"golesson/structs"
 	"golesson/variables"
 	"time"
@@ -125,4 +126,5 @@ func main() {
 	interfaces.Demo3()
 	error_handling.Demo2()
 	fmt.Println(error_handling.GuessIt2(102))
+	string_functions.Demo1()
 }
