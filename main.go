@@ -127,4 +127,5 @@ func main() {
 	error_handling.Demo2()
 	fmt.Println(error_handling.GuessIt2(102))
 	string_functions.Demo1()
+	string_functions.Demo2()
 }
