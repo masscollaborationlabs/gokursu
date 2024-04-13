@@ -130,4 +130,5 @@ func main() {
 	string_functions.Demo1()
 	string_functions.Demo2()
 	restful.Demo1()
+	restful.Demo2()
 }
