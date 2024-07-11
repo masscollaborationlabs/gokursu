@@ -6,10 +6,10 @@ Forge ortamları:
 
 * https://github.com/masscollaborationlabs/gokursu
 * https://gitlab.com/masscollabs/masscollaborationlabs/gokursu
+* https://git.sr.ht/~mertgor/gokursu
 * https://git.vern.cc/masscollaborationlabs/gokursu
 * https://git.disroot.org/hwpplayer1/gokursu
 * https://codeberg.org/masscollaborationlabs/gokursu
-* https://git.sr.ht/~mertgor/gokursu
 * https://git.truvalinux.org.tr/hwpplayer1/gokursu
 * ve yereldeki kodunuz
 
