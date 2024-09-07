@@ -11,6 +11,7 @@ Forge ortamları:
 * https://git.disroot.org/hwpplayer1/gokursu
 * https://codeberg.org/masscollaborationlabs/gokursu
 * https://git.truvalinux.org.tr/hwpplayer1/gokursu
+* https://source.masscollabs.xyz/masscollaborationlabs/gokursu
 * ve yereldeki kodunuz
 
 # License
