@@ -6,6 +6,14 @@ Forge ortamları:
 
 * https://github.com/masscollaborationlabs/gokursu
 
+* https://gitlab.com/masscollabs/masscollaborationlabs/gokursu
+
+* https://git.sr.ht/~mertgor/gokursu
+ 
+* https://git.disroot.org/masscollaborationlabs/gokursu
+
+* https://codeberg.org/masscollaborationlabs/gokursu
+
 # License
 
 BSD 3-Clause License
