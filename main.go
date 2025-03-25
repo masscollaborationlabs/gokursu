@@ -19,4 +19,13 @@ func main() {
 	vat_another := 25
 	fmt.Println(vat_another)
 	fmt.Printf("data type : %T\n", vat_another)
+
+	var the_statement bool = false
+
+	var text1 string = "Engin"
+	var text2 string = "Ahmet"
+
+	the_statement = text1 == text2
+
+	fmt.Println(the_statement)
 }
