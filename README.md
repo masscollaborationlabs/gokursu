@@ -4,6 +4,8 @@ Go programming language course by Mass Collaboration Labs
 
 Forges:
 
+* https://source.masscollabs.xyz/masscollaborationlabs/gokursu
+
 * https://github.com/masscollaborationlabs/gokursu
 
 * https://gitlab.com/masscollabs/masscollaborationlabs/gokursu
