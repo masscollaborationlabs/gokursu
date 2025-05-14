@@ -26,6 +26,10 @@ Copyright (C) 2024-2025 bilsege and contributors
 
 Copyright (C) 2024-2025 Birleşik Dergi Yazarları
 
+Copyright (C) 2024-2025 exsay and contributors
+
+Copyright (C) 2024-2025 Açık ağ ve katkıcıları
+
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
